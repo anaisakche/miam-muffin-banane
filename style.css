@@ -1,0 +1,135 @@
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.link {
+    padding: 0px 10px;
+    color: #0A1C47;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+img {
+    width: 100vw;
+    height: 400px; 
+    object-fit: cover;
+    display: block;
+  }
+  
+body {
+    background-color: #F9F8F4;
+    text-align: center;
+    font-family: "Poppins", serif;
+    margin: 0px;
+  }
+
+h1 {
+    font-size: 44px;
+    margin: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(31, 5, 56);
+}
+
+
+
+ul{ 
+    margin: 64px 0px;
+}
+
+ul li {  
+    display: inline;
+}
+
+
+ol li {
+    text-align: left;
+}
+ 
+#header {
+    color: #F9F8F4;
+    background-color: #0A1C47;
+    padding: 40px;
+    display: block;
+}
+
+.white-card {
+    background-color: white;
+    padding: 60px;
+    margin: 60px;
+}
+
+.badge {
+    color: #F9F8F4;
+    background-color: #886176;
+    padding: 12px;
+    margin: 12px;
+}
+
+.container {
+    width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+#btn-purple {
+    border: 2px solid #886176;
+    color: #886176;
+    padding: 16px 16px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 300ms;
+    display: block;
+}
+
+#btn-purple:hover {
+    background-color: #7C506D;
+    color: white;
+
+}
+
+.steps {
+    align-items: left;
+}
+
+.wrapper-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-grid {
+    border: 1px solid #7C506D;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    width: auto;
+    text-align: center;
+}
+
+.p-margin-bottom {
+    margin-bottom: 50px;
+}
+
+#liste-left {
+    text-align: left;
+    display: list-item;
+}
+
+.gif {
+    display: flex;
+}
+
+
+
