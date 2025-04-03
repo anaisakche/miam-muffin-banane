@@ -110,10 +110,12 @@ ol li {
 }
 
 .card-grid {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #7C506D;
     border-radius: 5px;
     padding: 10px;
-    align-items: center;
+    justify-content: space-between;
     width: auto;
     text-align: center;
 }
